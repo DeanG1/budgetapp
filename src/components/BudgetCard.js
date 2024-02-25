@@ -9,7 +9,6 @@ export default function BudgetCard({
   hideButtons,
   onAddExpenseClick,
   onViewExpensesClick,
-  hideButtons
 }) {
   const classNames = []
   if (amount > max) {
